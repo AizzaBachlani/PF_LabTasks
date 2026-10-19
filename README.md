@@ -4,6 +4,7 @@
 <img width="802" height="566" alt="image" src="https://github.com/user-attachments/assets/be4e379a-5462-4f53-8a79-39c67f8dca76" />
 <br>
 ### Task 02:
+<br>
 <img width="787" height="447" alt="image" src="https://github.com/user-attachments/assets/ff2448ae-ccb6-41c7-a5d2-c31fed262bdc" />
 <br>
 ### Task 03:
