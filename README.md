@@ -5,9 +5,12 @@
 <br>
 ### Task 02:
 <br>
+<br>
 <img width="787" height="447" alt="image" src="https://github.com/user-attachments/assets/ff2448ae-ccb6-41c7-a5d2-c31fed262bdc" />
 <br>
 ### Task 03:
+<br>
+<br>
 <img width="550" height="392" alt="image" src="https://github.com/user-attachments/assets/4b3d8ec2-7904-4c89-9459-c134c633883c" />
 <br>
 ### Task 04:
