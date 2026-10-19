@@ -1,0 +1,41 @@
+#include<stdio.h>
+void bubbleSort(int *arr, int n) {
+    int i, j, temp;
+    for (i = 0; i < n - 1; i++) {
+        for (j = 0; j < n - 1 - i; j++) {
+            if (*(arr + j) > *(arr + j + 1)) {
+                temp = *(arr + j);
+                *(arr + j) = *(arr + j + 1);
+                *(arr + j + 1) = temp;
+            }
+        }
+    }
+}
+void printArray(const int *arr, int n) {
+    int i;
+    for (i = 0; i < n; i++) {
+        printf("%d ", *(arr + i));
+    }
+    printf("\n");
+}
+int main() {
+    int scores[20];
+    int n, i;
+    do {
+        printf("Enter number of scores (1-20): ");
+        scanf("%d", &n);
+        if (n < 1 || n > 20) {
+            printf("Invalid size\n");
+        }
+    } while (n < 1 || n > 20);
+    printf("Enter the scores:\n");
+    for (i = 0; i < n; i++) {
+        scanf("%d", &scores[i]);
+    }
+    printf("Array before sorting: ");
+    printArray(scores, n);
+    bubbleSort(scores, n);
+    printf("Array after sorting: ");
+    printArray(scores, n);
+    return 0;
+}
